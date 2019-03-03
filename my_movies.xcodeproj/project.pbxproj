@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4418F36A222C0B6600BF5D96 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4418F369222C0B6600BF5D96 /* MovieDetailsViewController.swift */; };
 		442C934F2228CD5900914F32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442C934E2228CD5900914F32 /* AppDelegate.swift */; };
 		442C93512228CD5900914F32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442C93502228CD5900914F32 /* ViewController.swift */; };
 		442C93542228CD5900914F32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442C93522228CD5900914F32 /* Main.storyboard */; };
 		442C93562228CD5B00914F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442C93552228CD5B00914F32 /* Assets.xcassets */; };
 		442C93592228CD5B00914F32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442C93572228CD5B00914F32 /* LaunchScreen.storyboard */; };
+		442C93612228CE2D00914F32 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442C93602228CE2D00914F32 /* Movie.swift */; };
+		44EB5A83222AEA7700524C2E /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EB5A82222AEA7700524C2E /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4418F369222C0B6600BF5D96 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		442C934B2228CD5900914F32 /* my_movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = my_movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		442C934E2228CD5900914F32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		442C93502228CD5900914F32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		442C93552228CD5B00914F32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		442C93582228CD5B00914F32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		442C935A2228CD5B00914F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		442C93602228CE2D00914F32 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		44EB5A82222AEA7700524C2E /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,12 @@
 				442C934E2228CD5900914F32 /* AppDelegate.swift */,
 				442C93502228CD5900914F32 /* ViewController.swift */,
 				442C93522228CD5900914F32 /* Main.storyboard */,
+				4418F369222C0B6600BF5D96 /* MovieDetailsViewController.swift */,
+				44EB5A82222AEA7700524C2E /* MovieCell.swift */,
 				442C93552228CD5B00914F32 /* Assets.xcassets */,
 				442C93572228CD5B00914F32 /* LaunchScreen.storyboard */,
 				442C935A2228CD5B00914F32 /* Info.plist */,
+				442C93602228CE2D00914F32 /* Movie.swift */,
 			);
 			path = my_movies;
 			sourceTree = "<group>";
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4418F36A222C0B6600BF5D96 /* MovieDetailsViewController.swift in Sources */,
+				442C93612228CE2D00914F32 /* Movie.swift in Sources */,
 				442C93512228CD5900914F32 /* ViewController.swift in Sources */,
+				44EB5A83222AEA7700524C2E /* MovieCell.swift in Sources */,
 				442C934F2228CD5900914F32 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
